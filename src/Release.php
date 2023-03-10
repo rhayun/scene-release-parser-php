@@ -329,6 +329,7 @@
       ]
     ];
 
+    protected $original = null;
     protected $release = null;
     protected $strict = true;
     protected $defaults = [];
@@ -898,5 +899,3 @@
     }
 
   }
-
-?>
